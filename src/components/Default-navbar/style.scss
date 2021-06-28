@@ -1,0 +1,40 @@
+@import '../../style-global/global-style.scss';
+
+
+
+$backgroundColor : darkgray; 
+$logoTextColor : white;
+
+.navbar-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    font-size: 1.6rem;
+    color: white;
+    padding: 10px 0px;
+
+
+    background-color: $backgroundColor;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 90%;
+        max-width: 1444px;
+    }
+
+
+    .logo-area {
+        font-size: 1.8rem;
+        color: $logoTextColor;
+    }
+
+    h1.capitalize-text {
+        text-transform: capitalize;
+    }
+}
