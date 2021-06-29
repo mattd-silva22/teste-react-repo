@@ -3,8 +3,6 @@ import { DefaultNavbar } from "../../components/Default-navbar";
 
 
 
-import './style.scss'
-
 type TodoItem =  {
     id: number;
     value: string;
